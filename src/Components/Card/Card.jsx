@@ -36,7 +36,7 @@ function Card({productInfo}) {
         </div>
         <div className="p-3">
             <h3 className="text-primary">{category.name}</h3>
-            <h2 className="text-lg font-semibold ">{title.split(" ").slice(0,2).join(" ")}</h2>
+            <h4 className="text-sm font-bold ">{title.split(" ").slice(0,2).join(" ")}</h4>
             <div className="flex items-center justify-between mt-4">
                 <span>{price} L.E</span>
                 <div className="flex gap-1 items-center">
