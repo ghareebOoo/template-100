@@ -1,0 +1,31 @@
+@import '@fontsource-variable/encode-sans';
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .form-control{
+        @apply outline-none p-3
+    }
+
+    .btn{
+        @apply outline-none bg-primary p-3 rounded-md
+    }
+    .shape{
+        @apply before:absolute before:-bottom-2 before:bg-primary before:h-1
+    }
+} 
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-family: 'Encode Sans Variable', sans-serif;
+}
